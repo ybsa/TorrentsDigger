@@ -8,6 +8,7 @@ import 'package:torrents_digger/blocs/pagination_bloc/pagination_bloc.dart';
 import 'package:torrents_digger/blocs/sources_bloc/source_bloc.dart';
 import 'package:torrents_digger/blocs/torrent_bloc/torrent_bloc.dart';
 import 'package:torrents_digger/blocs/theme_bloc/theme_bloc.dart';
+import 'package:torrents_digger/blocs/search_history_bloc/search_history_bloc.dart';
 import 'package:torrents_digger/configs/colors.dart';
 import 'package:torrents_digger/ui/widgets/scaffold_messenger.dart';
 import 'package:torrents_digger/database/initialize.dart';
@@ -55,6 +56,7 @@ class MyApp extends StatelessWidget {
           create: (_) => CustomsBloc()..add(CustomsEvent.loadCustoms()),
         ),
         BlocProvider(create: (_) => ThemeBloc()..add(LoadTheme())),
+        BlocProvider(create: (_) => SearchHistoryBloc()..add(LoadHistory())),
       ],
       child: BlocBuilder<ThemeBloc, ThemeState>(
         builder: (context, state) {
