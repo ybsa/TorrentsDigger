@@ -88,7 +88,7 @@ class _CategoryItem extends StatelessWidget {
         width: 70,
         decoration: BoxDecoration(
           color: isSelected
-              ? AppColors.greenColor.withOpacity(0.2)
+              ? AppColors.greenColor.withValues(alpha: 0.2)
               : AppColors.cardColor,
           borderRadius: BorderRadius.circular(12),
           border: isSelected

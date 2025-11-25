@@ -1,0 +1,258 @@
+﻿Analyzing TorrentsDigger...                                     
+
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\bookmark_bloc\bookmark_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'meta' isn't a dependency of the importing package - lib\blocs\bookmark_bloc\bookmark_bloc.dart:2:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\customs_bloc\customs_bloc.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/customs_bloc/customs_bloc.freezed.dart' - lib\blocs\customs_bloc\customs_bloc.dart:9:6 - uri_does_not_exist
+  error - The method '_Initial' isn't defined for the type 'CustomsBloc' - lib\blocs\customs_bloc\customs_bloc.dart:12:25 - undefined_method
+  error - The name '_LoadCustoms' isn't a type, so it can't be used as a type argument - lib\blocs\customs_bloc\customs_bloc.dart:13:8 - non_type_as_type_argument
+  error - The name '_SelectCustomListing' isn't a type, so it can't be used as a type argument - lib\blocs\customs_bloc\customs_bloc.dart:14:8 - non_type_as_type_argument
+  error - The name '_SearchTorrents' isn't a type, so it can't be used as a type argument - lib\blocs\customs_bloc\customs_bloc.dart:15:8 - non_type_as_type_argument
+  error - Undefined class '_LoadCustoms' - lib\blocs\customs_bloc\customs_bloc.dart:18:21 - undefined_class
+  error - Undefined class '_SelectCustomListing' - lib\blocs\customs_bloc\customs_bloc.dart:33:5 - undefined_class
+  error - The name '_Loaded' isn't defined, so it can't be used in an 'is' expression - lib\blocs\customs_bloc\customs_bloc.dart:37:25 - type_test_with_undefined_name
+  error - Undefined class '_SearchTorrents' - lib\blocs\customs_bloc\customs_bloc.dart:56:5 - undefined_class
+  error - The name '_Loaded' isn't defined, so it can't be used in an 'is' expression - lib\blocs\customs_bloc\customs_bloc.dart:60:25 - type_test_with_undefined_name
+  error - Classes can only mix in mixins and classes - lib\blocs\customs_bloc\customs_event.dart:4:25 - mixin_of_non_class
+  error - The name '_LoadCustoms' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_event.dart:5:46 - redirect_to_non_class
+  error - The name '_SelectCustomListing' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_event.dart:9:8 - redirect_to_non_class
+  error - The name '_SearchTorrents' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_event.dart:10:49 - redirect_to_non_class
+  error - Classes can only mix in mixins and classes - lib\blocs\customs_bloc\customs_state.dart:4:25 - mixin_of_non_class
+  error - The name '_Initial' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_state.dart:5:42 - redirect_to_non_class
+  error - The name '_Loading' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_state.dart:6:42 - redirect_to_non_class
+  error - The name '_Loaded' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_state.dart:12:8 - redirect_to_non_class
+  error - The name '_Error' isn't a type and can't be used in a redirected constructor - lib\blocs\customs_bloc\customs_state.dart:13:70 - redirect_to_non_class
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/default_trackers_bloc/default_trackers_bloc.freezed.dart' - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:9:6 - uri_does_not_exist
+  error - The method '_Initial' isn't defined for the type 'DefaultTrackersBloc' - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:13:33 - undefined_method
+  error - The name '_LoadTrackersList' isn't a type, so it can't be used as a type argument - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:14:8 - non_type_as_type_argument
+  error - The name '_SetTrackersList' isn't a type, so it can't be used as a type argument - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:15:8 - non_type_as_type_argument
+  error - Undefined class '_LoadTrackersList' - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:19:5 - undefined_class
+  error - Undefined class '_SetTrackersList' - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:44:5 - undefined_class
+  error - The name '_loaded' isn't defined, so it can't be used in an 'is' expression - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:56:20 - type_test_with_undefined_name
+  error - The name '_loaded' isn't a type, so it can't be used in an 'as' expression - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:57:37 - cast_to_non_type
+  error - Classes can only mix in mixins and classes - lib\blocs\default_trackers_bloc\default_trackers_event.dart:4:33 - mixin_of_non_class
+  error - The name '_Started' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_event.dart:5:50 - redirect_to_non_class
+  error - The name '_LoadTrackersList' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_event.dart:6:59 - redirect_to_non_class
+  error - The name '_SetTrackersList' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_event.dart:9:8 - redirect_to_non_class
+  error - Classes can only mix in mixins and classes - lib\blocs\default_trackers_bloc\default_trackers_state.dart:4:33 - mixin_of_non_class
+  error - The name '_Initial' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_state.dart:5:50 - redirect_to_non_class
+  error - The name '_Loading' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_state.dart:6:50 - redirect_to_non_class
+  error - The name '_loaded' isn't a type and can't be used in a redirected constructor - lib\blocs\default_trackers_bloc\default_trackers_state.dart:10:8 - redirect_to_non_class
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\ip_info_bloc\ip_details_bloc.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/ip_info_bloc/ip_details_bloc.freezed.dart' - lib\blocs\ip_info_bloc\ip_details_bloc.dart:9:6 - uri_does_not_exist
+  error - The name '_Initial' isn't a class - lib\blocs\ip_info_bloc\ip_details_bloc.dart:12:33 - creation_with_non_type
+  error - The name '_ExtractIpDetails' isn't a type, so it can't be used as a type argument - lib\blocs\ip_info_bloc\ip_details_bloc.dart:13:8 - non_type_as_type_argument
+  error - Undefined class '_ExtractIpDetails' - lib\blocs\ip_info_bloc\ip_details_bloc.dart:17:5 - undefined_class
+  error - Classes can only mix in mixins and classes - lib\blocs\ip_info_bloc\ip_details_event.dart:4:27 - mixin_of_non_class
+  error - The name '_Started' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_event.dart:5:44 - redirect_to_non_class
+  error - The name '_ExtractIpDetails' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_event.dart:6:53 - redirect_to_non_class
+  error - Classes can only mix in mixins and classes - lib\blocs\ip_info_bloc\ip_details_state.dart:4:27 - mixin_of_non_class
+  error - The name '_Initial' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_state.dart:5:44 - redirect_to_non_class
+  error - The name '_InProgress' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_state.dart:6:47 - redirect_to_non_class
+  error - The name '_Success' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_state.dart:9:8 - redirect_to_non_class
+  error - The name '_Failed' isn't a type and can't be used in a redirected constructor - lib\blocs\ip_info_bloc\ip_details_state.dart:10:66 - redirect_to_non_class
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\pagination_bloc\pagination_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'meta' isn't a dependency of the importing package - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/proxy_settings_bloc/proxy_settings_bloc.freezed.dart' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:9:6 - uri_does_not_exist
+  error - The method 'copyWith' isn't defined for the type 'ProxySettingsState' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:29:15 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'ProxySettingsState' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:40:16 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'ProxySettingsState' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:73:18 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'ProxySettingsState' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:89:18 - undefined_method
+  error - Classes can only mix in mixins and classes - lib\blocs\proxy_settings_bloc\proxy_settings_state.dart:4:40 - mixin_of_non_class
+  error - The name '_ProxySettingsState' isn't a type and can't be used in a redirected constructor - lib\blocs\proxy_settings_bloc\proxy_settings_state.dart:9:8 - redirect_to_non_class
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\settings_bloc\settings_bloc.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/settings_bloc/settings_bloc.freezed.dart' - lib\blocs\settings_bloc\settings_bloc.dart:7:6 - uri_does_not_exist
+  error - The method '_Initial' isn't defined for the type 'SettingsBloc' - lib\blocs\settings_bloc\settings_bloc.dart:10:26 - undefined_method
+  error - The method 'map' isn't defined for the type 'SettingsEvents' - lib\blocs\settings_bloc\settings_bloc.dart:12:19 - undefined_method
+  error - Undefined class '_CheckForUpdate' - lib\blocs\settings_bloc\settings_bloc.dart:21:3 - undefined_class
+  error - Undefined class '_GetAppCurrentVersion' - lib\blocs\settings_bloc\settings_bloc.dart:40:3 - undefined_class
+  error - Classes can only mix in mixins and classes - lib\blocs\settings_bloc\settings_event.dart:4:27 - mixin_of_non_class
+  error - The name '_CheckForUpdate' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_event.dart:5:51 - redirect_to_non_class
+  error - The name '_GetAppCurrentVersion' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_event.dart:6:57 - redirect_to_non_class
+  error - Classes can only mix in mixins and classes - lib\blocs\settings_bloc\settings_state.dart:4:26 - mixin_of_non_class
+  error - The name '_Initial' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:5:43 - redirect_to_non_class
+  error - The name '_UpdateChecking' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:7:50 - redirect_to_non_class
+  error - The name '_UpdateAvailable' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:8:51 - redirect_to_non_class
+  error - The name '_LatestVersion' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:9:49 - redirect_to_non_class
+  error - The name '_CheckAppUpdateError' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:11:7 - redirect_to_non_class
+  error - The name '_LoadingCurrentVersion' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:13:57 - redirect_to_non_class
+  error - The name '_LoadedCurrentVersion' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:15:7 - redirect_to_non_class
+  error - The name '_LoadCurrentVersionError' isn't a type and can't be used in a redirected constructor - lib\blocs\settings_bloc\settings_state.dart:17:7 - redirect_to_non_class
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\sources_bloc\source_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'meta' isn't a dependency of the importing package - lib\blocs\sources_bloc\source_bloc.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:torrents_digger/blocs/sources_bloc/source_bloc.freezed.dart' - lib\blocs\sources_bloc\source_bloc.dart:8:6 - uri_does_not_exist
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:27:16 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:32:13 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:44:16 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:48:16 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:52:16 - undefined_method
+  error - The method 'copyWith' isn't defined for the type 'SourceState' - lib\blocs\sources_bloc\source_bloc.dart:59:16 - undefined_method
+  error - Classes can only mix in mixins and classes - lib\blocs\sources_bloc\source_state.dart:4:33 - mixin_of_non_class
+warning - The declaration 'SourceState._' isn't referenced - lib\blocs\sources_bloc\source_state.dart:5:21 - unused_element
+  error - The name '_SourceState' isn't a type and can't be used in a redirected constructor - lib\blocs\sources_bloc\source_state.dart:14:8 - redirect_to_non_class
+  error - Undefined name 'selectedSource' - lib\blocs\sources_bloc\source_state.dart:17:9 - undefined_identifier
+  error - Undefined name 'sources' - lib\blocs\sources_bloc\source_state.dart:21:35 - undefined_identifier
+  error - Undefined name 'selectedSource' - lib\blocs\sources_bloc\source_state.dart:22:32 - undefined_identifier
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\theme_bloc\theme_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\torrent_bloc\torrent_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'meta' isn't a dependency of the importing package - lib\blocs\torrent_bloc\torrent_bloc.dart:2:8 - depend_on_referenced_packages
+  error - A value of type '(List<dynamic>, Null)' can't be returned from the function 'digCustomTorrents' because it has a return type of 'Future<(List<InternalTorrent>, int?)>' - lib\src\rust\api\app_web.dart:101:10 - return_of_invalid_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\ai_chat_screen.dart:70:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\ai_chat_screen.dart:76:64 - deprecated_member_use
+  error - The method 'when' isn't defined for the type 'CustomsState' - lib\ui\screens\customs_screen.dart:42:34 - undefined_method
+  error - The method 'when' isn't defined for the type 'DefaultTrackersState' - lib\ui\screens\default_trackers_screen.dart:65:32 - undefined_method
+  error - Invalid constant value - lib\ui\screens\default_trackers_screen.dart:86:50 - invalid_constant
+  error - The method 'whenOrNull' isn't defined for the type 'SettingsState' - lib\ui\screens\settings_screen.dart:105:31 - undefined_method
+  error - The method 'maybeWhen' isn't defined for the type 'SettingsState' - lib\ui\screens\settings_screen.dart:122:42 - undefined_method
+  error - The method 'maybeWhen' isn't defined for the type 'SettingsState' - lib\ui\screens\settings_screen.dart:131:40 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\torrent_details_screen.dart:80:64 - deprecated_member_use
+  error - The method 'maybeWhen' isn't defined for the type 'SettingsState' - lib\ui\widgets\about_widget.dart:15:22 - undefined_method
+  error - The method 'maybeWhen' isn't defined for the type 'SettingsState' - lib\ui\widgets\about_widget.dart:28:38 - undefined_method
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:13:19 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:15:19 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:18:30 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:19:40 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:20:31 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\ui\widgets\category_selector.dart:34:40 - undefined_getter
+  error - Undefined name 'SourceEvent' - lib\ui\widgets\category_selector.dart:40:25 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\widgets\category_selector.dart:91:38 - deprecated_member_use
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:14:19 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:28:30 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:31:38 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:50:31 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:52:37 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:54:33 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:70:31 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:72:37 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:74:33 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:90:31 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:92:37 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:94:33 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:110:31 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:112:37 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\ui\widgets\dropdowns_ui.dart:114:33 - undefined_getter
+  error - The method 'when' isn't defined for the type 'IpDetailsState' - lib\ui\widgets\ip_details_widget.dart:17:30 - undefined_method
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:44:66 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:48:39 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:52:69 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:56:47 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:61:39 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:65:66 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:69:47 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:76:45 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:77:65 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:81:67 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:85:47 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:92:45 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:94:45 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:99:72 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:103:47 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:110:45 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\ui\widgets\pagination_widget.dart:112:45 - undefined_getter
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:80:32 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:94:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:123:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:156:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:185:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:207:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:246:43 - invalid_constant
+  error - The getter 'proxyDetails' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:15:19 - undefined_getter
+  error - The getter 'proxyDetails' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:15:49 - undefined_getter
+  error - The getter 'savedProxy' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:20:19 - undefined_getter
+  error - The getter 'savedProxy' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:21:19 - undefined_getter
+  error - The getter 'savedProxy' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:22:19 - undefined_getter
+  error - The getter 'proxyDetails' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:24:33 - undefined_getter
+  error - The getter 'selectedProxy' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:25:34 - undefined_getter
+  error - The getter 'savedProxy' isn't defined for the type 'ProxySettingsState' - lib\ui\widgets\proxy_setting_widget.dart:29:34 - undefined_getter
+  error - The argument type 'TextEditingController' can't be assigned to the parameter type 'SearchController?'.  - lib\ui\widgets\search_bar_widget.dart:35:33 - argument_type_not_assignable
+  error - Invalid constant value - lib\ui\widgets\torrents_list_ui.dart:23:43 - invalid_constant
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:24:23 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:29:29 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:32:29 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:35:29 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:38:29 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:50:25 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:52:23 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:56:53 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:58:60 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:64:29 - undefined_getter
+  error - The getter 'selectedCategory' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:66:29 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:71:50 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:73:60 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:79:54 - undefined_getter
+  error - The getter 'selectedFilter' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:80:53 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:84:51 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:86:60 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:92:55 - undefined_getter
+  error - The getter 'selectedSorting' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:94:33 - undefined_getter
+  error - The getter 'sources' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:99:56 - undefined_getter
+  error - The getter 'selectedSource' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:101:60 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:107:29 - undefined_getter
+  error - The getter 'selectedSortingOrder' isn't defined for the type 'SourceState' - lib\utils\search_helper.dart:109:29 - undefined_getter
+  error - Target of URI doesn't exist: 'package:build_tool/build_tool.dart' - rust_builder\cargokit\build_tool\bin\build_tool.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:version/version.dart' - rust_builder\cargokit\build_tool\lib\src\android_environment.dart:11:8 - uri_does_not_exist
+  error - Undefined name 'Version' - rust_builder\cargokit\build_tool\lib\src\android_environment.dart:131:30 - undefined_identifier
+  error - Undefined class 'Version' - rust_builder\cargokit\build_tool\lib\src\android_environment.dart:171:45 - undefined_class
+  error - Target of URI doesn't exist: 'package:ed25519_edwards/ed25519_edwards.dart' - rust_builder\cargokit\build_tool\lib\src\artifacts_provider.dart:7:8 - uri_does_not_exist
+  error - The method 'verify' isn't defined for the type 'ArtifactProvider' - rust_builder\cargokit\build_tool\lib\src\artifacts_provider.dart:213:9 - undefined_method
+  error - Target of URI doesn't exist: 'package:ed25519_edwards/ed25519_edwards.dart' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:github/github.dart' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:9:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:hex/hex.dart' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:10:8 - uri_does_not_exist
+  error - The method 'generateKey' isn't defined for the type 'GenKeyCommand' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:93:16 - undefined_method
+  error - Undefined name 'HEX' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:94:21 - undefined_identifier
+  error - Undefined name 'HEX' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:95:20 - undefined_identifier
+  error - Undefined name 'HEX' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:166:24 - undefined_identifier
+  error - The method 'PrivateKey' isn't defined for the type 'PrecompileBinariesCommand' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:193:19 - undefined_method
+  error - Undefined name 'RepositorySlug' - rust_builder\cargokit\build_tool\lib\src\build_tool.dart:196:23 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:toml/toml.dart' - rust_builder\cargokit\build_tool\lib\src\cargo.dart:8:8 - uri_does_not_exist
+  error - Undefined name 'TomlDocument' - rust_builder\cargokit\build_tool\lib\src\cargo.dart:32:18 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:ed25519_edwards/ed25519_edwards.dart' - rust_builder\cargokit\build_tool\lib\src\options.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:hex/hex.dart' - rust_builder\cargokit\build_tool\lib\src\options.dart:9:8 - uri_does_not_exist
+  error - Undefined class 'PublicKey' - rust_builder\cargokit\build_tool\lib\src\options.dart:120:9 - undefined_class
+  error - Undefined class 'PublicKey' - rust_builder\cargokit\build_tool\lib\src\options.dart:127:10 - undefined_class
+  error - Undefined name 'HEX' - rust_builder\cargokit\build_tool\lib\src\options.dart:128:19 - undefined_identifier
+  error - The method 'PublicKey' isn't defined for the type 'PrecompiledBinaries' - rust_builder\cargokit\build_tool\lib\src\options.dart:133:12 - undefined_method
+  error - Target of URI doesn't exist: 'package:ed25519_edwards/ed25519_edwards.dart' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:github/github.dart' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:8:8 - uri_does_not_exist
+  error - Undefined class 'PrivateKey' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:35:9 - undefined_class
+  error - Undefined class 'RepositorySlug' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:37:9 - undefined_class
+  error - The method 'GitHub' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:71:20 - undefined_method
+  error - Undefined name 'Authentication' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:71:33 - undefined_identifier
+  error - The name 'CreateReleaseAsset' isn't a type, so it can't be used as a type argument - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:126:23 - non_type_as_type_argument
+  error - The method 'CreateReleaseAsset' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:134:24 - undefined_method
+  error - The method 'sign' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:139:27 - undefined_method
+  error - The method 'CreateReleaseAsset' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:140:33 - undefined_method
+  error - The method 'verify' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:145:25 - undefined_method
+  error - The method 'public' isn't defined for the type 'PrecompileBinaries' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:145:32 - undefined_method
+  error - The property 'name' can't be unconditionally accessed because the receiver can be 'null' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:152:58 - unchecked_use_of_nullable_value
+  error - The name 'Release' isn't a type, so it can't be used as a type argument - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:177:10 - non_type_as_type_argument
+  error - Undefined class 'RepositoriesService' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:178:14 - undefined_class
+  error - Undefined class 'Release' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:183:5 - undefined_class
+  error - The name 'ReleaseNotFound' isn't a type and can't be used in an on-catch clause - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:187:10 - non_type_in_catch_clause
+  error - Undefined name 'CreateRelease' - rust_builder\cargokit\build_tool\lib\src\precompile_binaries.dart:191:11 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:ed25519_edwards/ed25519_edwards.dart' - rust_builder\cargokit\build_tool\lib\src\verify_binaries.dart:7:8 - uri_does_not_exist
+  error - The method 'verify' isn't defined for the type 'VerifyBinaries' - rust_builder\cargokit\build_tool\lib\src\verify_binaries.dart:72:16 - undefined_method
+
+flutter : 234 issues 
+found. (ran in 9.3s)
+At line:1 char:1
++ flutter analyze 
+2>&1 | Out-File 
+-FilePath 
+analyze_output.txt 
+-Encodin ...
++ 
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (234 iss   
+ ues found. (ran     
+in 9.3s):String)     
+[], RemoteExcep    
+tion
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

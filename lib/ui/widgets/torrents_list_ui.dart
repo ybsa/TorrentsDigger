@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:torrents_digger/blocs/torrent_bloc/torrent_bloc.dart';
 import 'package:torrents_digger/configs/colors.dart';
@@ -16,35 +15,39 @@ class TorrentsListUi extends StatelessWidget {
       builder: (context, state) {
         switch (state) {
           case TorrentInitial():
-            return const Center(
-              child: Text(
-                "Search Torrent , Get Torrents...",
-                style: TextStyle(color: AppColors.greenColor, fontSize: 15),
+            return const SliverFillRemaining(
+              hasScrollBody: false,
+              child: Center(
+                child: Text(
+                  "Search Torrent , Get Torrents...",
+                  style: TextStyle(color: AppColors.greenColor, fontSize: 15),
+                ),
               ),
             );
           case TorrentSearchLoading():
-            return const Center(child: CircularProgressBarWidget());
+            return const SliverFillRemaining(
+              hasScrollBody: false,
+              child: Center(child: CircularProgressBarWidget()),
+            );
           case TorrentSearchSuccess():
             return state.torrents.isEmpty
-                ? const Center(child: Text("No Torrent Found..."))
-                : AnimationLimiter(
-                    child: Column(
-                      children: AnimationConfiguration.toStaggeredList(
-                        duration: const Duration(milliseconds: 375),
-                        childAnimationBuilder: (widget) => SlideAnimation(
-                          verticalOffset: 50.0,
-                          child: FadeInAnimation(child: widget),
-                        ),
-                        children: [
-                          TorrentListWidget(torrents: state.torrents),
-                          PaginationWidget(),
-                        ],
-                      ),
-                    ),
+                ? const SliverFillRemaining(
+                    hasScrollBody: false,
+                    child: Center(child: Text("No Torrent Found...")),
+                  )
+                : SliverMainAxisGroup(
+                    slivers: [
+                      TorrentListWidget(torrents: state.torrents),
+                      const SliverToBoxAdapter(child: PaginationWidget()),
+                    ],
                   );
           case TorrentSearchFailure():
-            return Center(
-              child: Text("Failed to fetch Torrents \n Error : ${state.error}"),
+            return SliverFillRemaining(
+              hasScrollBody: false,
+              child: Center(
+                child:
+                    Text("Failed to fetch Torrents \n Error : ${state.error}"),
+              ),
             );
         }
       },

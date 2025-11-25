@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:torrents_digger/configs/colors.dart';
 
 abstract class AppTheme {
   String get name;

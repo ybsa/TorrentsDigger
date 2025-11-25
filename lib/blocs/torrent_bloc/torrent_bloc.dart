@@ -1,7 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:torrents_digger/blocs/pagination_bloc/pagination_bloc.dart';
-import 'package:torrents_digger/dig_torrent/search_torrent.dart';
+import 'package:torrents_digger/dig_torrent/search_torrent_web.dart'
+    if (dart.library.io) 'package:torrents_digger/dig_torrent/search_torrent.dart';
 import 'package:torrents_digger/src/rust/api/internals.dart';
 
 part 'torrent_event.dart';

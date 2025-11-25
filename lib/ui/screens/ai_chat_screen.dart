@@ -67,13 +67,13 @@ class _AIChatScreenState extends State<AIChatScreen> {
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
                       color: isUser
-                          ? AppColors.greenColor.withOpacity(0.2)
+                          ? AppColors.greenColor.withValues(alpha: 0.2)
                           : AppColors.cardColor,
                       borderRadius: BorderRadius.circular(12),
                       border: Border.all(
                         color: isUser
                             ? AppColors.greenColor
-                            : AppColors.cardSecondaryTextColor.withOpacity(0.3),
+                            : AppColors.cardSecondaryTextColor.withValues(alpha: 0.3),
                       ),
                     ),
                     constraints: BoxConstraints(

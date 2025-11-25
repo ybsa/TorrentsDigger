@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
 import 'package:torrents_digger/configs/app_theme.dart';
 
 class AppColors {

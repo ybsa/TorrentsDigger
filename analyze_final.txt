@@ -1,0 +1,34 @@
+﻿Analyzing TorrentsDigger...                                     
+
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\bookmark_bloc\bookmark_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\customs_bloc\customs_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\default_trackers_bloc\default_trackers_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\ip_info_bloc\ip_details_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\pagination_bloc\pagination_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The import of 'package:meta/meta.dart' is unnecessary because all of the used elements are also provided by the import of 'package:freezed_annotation/freezed_annotation.dart' - lib\blocs\proxy_settings_bloc\proxy_settings_bloc.dart:3:8 - unnecessary_import
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\settings_bloc\settings_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\sources_bloc\source_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The import of 'package:meta/meta.dart' is unnecessary because all of the used elements are also provided by the import of 'package:freezed_annotation/freezed_annotation.dart' - lib\blocs\sources_bloc\source_bloc.dart:3:8 - unnecessary_import
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\theme_bloc\theme_bloc.dart:1:8 - depend_on_referenced_packages
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\blocs\torrent_bloc\torrent_bloc.dart:1:8 - depend_on_referenced_packages
+  error - A value of type '(List<dynamic>, Null)' can't be returned from the function 'digCustomTorrents' because it has a return type of 'Future<(List<InternalTorrent>, int?)>' - lib\src\rust\api\app_web.dart:101:10 - return_of_invalid_type
+  error - Invalid constant value - lib\ui\screens\default_trackers_screen.dart:86:50 - invalid_constant
+  error - Undefined name 'SourceEvent' - lib\ui\widgets\category_selector.dart:40:25 - undefined_identifier
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:80:32 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:94:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:123:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:156:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:185:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:207:48 - invalid_constant
+  error - Invalid constant value - lib\ui\widgets\proxy_add_widget.dart:246:43 - invalid_constant
+  error - The argument type 'TextEditingController' can't be assigned to the parameter type 'SearchController?'.  - lib\ui\widgets\search_bar_widget.dart:35:33 - argument_type_not_assignable
+  error - Invalid constant value - lib\ui\widgets\torrents_list_ui.dart:23:43 - invalid_constant
+
+flutter : 24 issues found. (ran in 4.6s)
+At line:1 char:1
++ flutter analyze 2>&1 | Out-File -FilePath analyze_final.txt -Encoding ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo              : NotSpecified: (24 is    sues found. (ran in 4.6    s):String) [], RemoteEx    ception
+    + FullyQualifiedErrorId     : NativeCommandError
+ 
